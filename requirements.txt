@@ -1,0 +1,7 @@
+streamlit>=1.0
+yt-dlp>=2021.12.1
+whisper>=1.0
+torch>=1.9.0  # Whisper requires PyTorch for inference
+transformers>=4.11.0  # For summarization (T5 model)
+fuzzywuzzy>=0.18.0  # For fuzzy string matching in the phrase replacements
+ffmpeg-python>=0.2.0  # If you're using ffmpeg commands via python
